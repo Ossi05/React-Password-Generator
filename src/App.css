@@ -1,0 +1,31 @@
+body {
+    background-color: #252525;
+    color: rgb(211, 211, 211);
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 2rem;
+    background: radial-gradient(#1a1a1a, #1b1b1b);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 60%;
+    }
+
+    .h1 {
+        font-size: 3.5rem;
+    }
+}
