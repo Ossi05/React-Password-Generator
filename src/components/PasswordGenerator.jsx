@@ -25,11 +25,11 @@ export default function PasswordGenerator({ minPasswordLength = 4, maxPasswordLe
 
     return (
         <>
-            <div className="container main-container">
+            <main className="container main-container">
                 <h1>Password Generator</h1>
                 <PasswordDisplay password={password} onClick={copyPasswordToClipboard} />
                 <PasswordForm onChange={onChange} passwordSettings={passwordSettings} minPasswordLength={minPasswordLength} maxPasswordLength={maxPasswordLength} />
-            </div>
+            </main>
         </>
     )
 }

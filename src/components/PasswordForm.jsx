@@ -5,7 +5,7 @@ export default function PasswordForm({ onChange, passwordSettings, minPasswordLe
     return (
         <form action="#" className="container password-form">
             <div className="range-container">
-                <Input label={`Password length ${passwordSettings.length}`} onChange={onChange} type="range" name="length" id="length" min={minPasswordLength} max={maxPasswordLength} />
+                <Input label={`Password length: ${passwordSettings.length}`} onChange={onChange} type="range" name="length" id="length" min={minPasswordLength} max={maxPasswordLength} />
             </div>
             <div className="checkbox-container">
                 <Input label="abc" onChange={onChange} type="checkbox" name="lowerCase" id="lowerCase" checked={passwordSettings.lowerCase} />

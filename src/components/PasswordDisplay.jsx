@@ -2,7 +2,7 @@ import "./PasswordDisplay.css";
 
 export default function PasswordDisplay({ password, onClick }) {
     return (
-        <div className="password-display">
+        <section className="password-display">
             <button onClick={onClick}>
                 <span className="password">
                     {password}
@@ -13,6 +13,6 @@ export default function PasswordDisplay({ password, onClick }) {
                     </svg>
                 </span>
             </button>
-        </div>
+        </section>
     );
 }
